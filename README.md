@@ -1,4 +1,4 @@
-# 🔍 Real-Time AI-Powered XR Educational Overlay
+# 🔍 Real-Time AI-Powered XR Overlay
 
 This project is a **real-time extended reality (XR) educational tool** that uses **YOLOv5 for object detection**, **Google Gemini for AI-powered descriptions**, and **gTTS for voice narration**, overlaid on a **live webcam feed**. It is designed for **interactive teaching environments**, especially in browser-based platforms like Google Colab.
 
@@ -52,15 +52,18 @@ This is perfect for:
 ## ⚙️ Setup
 
 1. Clone the repository or copy the code into a Google Colab notebook.
-2. Install required packages:
+2. Upload the font files Poppins-Regular.ttf and Poppins-Bold.ttf using this code in a Colab cell:
+    ```bash
+   from google.colab import files
+   files.upload()  # Upload Poppins-Regular.ttf and Poppins-Bold.ttf here
+3. Install required packages:
    ```bash
    !pip install gTTS
    !pip install google-generativeai
-3. Replace the Gemini API key:
+4. Replace the Gemini API key:
    ```bash
    GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
-4. Run the run_realtime_ar() function in a code cell.
-
+5. Run the run_realtime_ar() function in a code cell.
 🛡️ Security & Privacy Notes
 - No user data is stored.
 - Webcam stream is accessed only in-memory and never uploaded.
