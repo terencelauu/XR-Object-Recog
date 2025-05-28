@@ -1,4 +1,4 @@
-# 🔍 XR Object Recognition with Real-Time Overlay & Speech
+# 🔍 XR Object Recognition with Real-Time Overlay & Speech with Google Gemini
 
 This project is a **real-time extended reality (XR) educational tool** that uses **YOLOv5 for object detection**, **Google Gemini for AI-powered descriptions**, and **gTTS for voice narration**, overlaid on a **live webcam feed**. It is designed for **interactive teaching environments**, especially in browser-based platforms like Google Colab.
 
