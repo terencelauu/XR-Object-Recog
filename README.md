@@ -64,12 +64,13 @@ This is perfect for:
    ```bash
    GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
 5. Run the run_realtime_ar() function in a code cell.
-🛡️ Security & Privacy Notes
+
+## 🛡️ Security & Privacy Notes
 - No user data is stored.
 - Webcam stream is accessed only in-memory and never uploaded.
 - Voice and text generation APIs are cloud-based (gTTS, Gemini).
 
-🧠 Future Improvements
+## 🧠 Future Improvements
 - Multi-object tracking and speech queuing
 - Multi-language support
 - Integration with ARCore/ARKit for 3D spatial awareness
